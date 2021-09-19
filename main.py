@@ -8,9 +8,25 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+def assignment2():
+    # get users name
+    name = input("Tell me your name:")
+    print(f'Hello {name}')
+
+    # enter a number and multiply by itself
+    x = int(input("Enter a number: "))
+    print(x * x)
+
+    #enter a word and calculate letter number
+    word = input("Please enter a word: ")
+    print("The number of letters in the word is: ", len(word))
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    # print_hi('PyCharm')
+
+    assignment2()
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
