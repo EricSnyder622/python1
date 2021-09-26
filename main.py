@@ -20,12 +20,30 @@ def assignment2():
     #enter a word and calculate letter number
     word = input("Please enter a word: ")
     print("The number of letters in the word is: ", len(word))
+import random
+def assignment3():
+    #Print 2-d array
+    rows = 9
+    col = 9
+    grid = [[0, 0, 0, 0, 0]]
+    for i in range(rows):
+        print("".join('.' for j in range(col)))
+
+    #Coin Flip
+    coin = int(input("Enter a value 1 or 0: "))
+    flip = random.randint(0, 1)
+    if(coin == flip):
+        print("You win!")
+    else:
+        print("You lose!")
+
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print_hi('PyCharm')
-
-    assignment2()
+    #assignment2()
+    assignment3()
 
 
 
