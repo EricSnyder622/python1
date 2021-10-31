@@ -21,12 +21,17 @@ def sumdigits():
     #Display sum
     print("\nSUM: ", Sumargs)
 
-    def arg2():
+    def floatsum():
+        flsum = 0.0
+        num = len(sys.argv)
+        for i in range(1, n):
+            flsum += float(sys.argv[i])
+        print("the sum is :", flsum)
 
 
 if __name__ == '__main__':
     sumdigits()
-    arg2()
+    floatsum()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
