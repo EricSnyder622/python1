@@ -28,6 +28,6 @@ if __name__ == '__main__':
     species2 = input("Second species of bird: ")
     b1 = Bird(name1, species1)
     b2 = Bird(name2, species2)
-
     b1.speak()
     b2.speak()
+
