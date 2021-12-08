@@ -21,15 +21,16 @@ def sumdigits():
     #Display sum
     print("\nSUM: ", Sumargs)
 
-    def floatsum():
-        flsum = 0.0
-        num = len(sys.argv)
-        for i in range(1, n):
-            flsum += float(sys.argv[i])
-        print("the sum is :", flsum)
+def floatsum():
+    flsum = 0.0
+    num = len(sys.argv)
+    for i in range(1, num):
+        flsum += float(sys.argv[i])
+    print("the sum is :", flsum)
 
 
 if __name__ == '__main__':
+    example()
     sumdigits()
     floatsum()
 
