@@ -30,4 +30,3 @@ if __name__ == '__main__':
     b2 = Bird(name2, species2)
     b1.speak()
     b2.speak()
-
